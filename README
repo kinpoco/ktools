@@ -1,5 +1,10 @@
 These programs are not useful for everyone other than me.
 Basically uesd for my daily job.
 
-kport:
+ccpp/kport:
   split network trace (pcap format) by client side port number.
+
+ccpp/0d0a:
+  if ascii mode is used to transfer binary files using ftp,
+  this can restore the file as if binary mode is used.
+
