@@ -3,6 +3,7 @@
 
 
 class Splitter
+  include Enumerable
 
   def initialize(pat=%r!^2007!, input=ARGF)
     @pat=pat
